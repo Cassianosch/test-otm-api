@@ -20,7 +20,7 @@ class CreateStudentsTable extends Migration
             $table->date('birthday');
             $table->string('course', 150);
             $table->integer('hour');
-            $table->decimal('price', 10, 2);
+            $table->double('price', 10, 2);
             $table->timestamps();
         });
     }
